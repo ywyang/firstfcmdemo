@@ -1,0 +1,5 @@
+demo/firebase/first/BuildConfig.java
+ demo.firebase.first.BuildConfig
+demo/firebase/first/MainActivity.java
+ demo.firebase.first.MainActivity
+ demo.firebase.first.MainActivity$1
