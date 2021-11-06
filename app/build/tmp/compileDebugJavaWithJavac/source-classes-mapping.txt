@@ -3,3 +3,5 @@ demo/firebase/first/BuildConfig.java
 demo/firebase/first/MainActivity.java
  demo.firebase.first.MainActivity
  demo.firebase.first.MainActivity$1
+ demo.firebase.first.MainActivity$2
+ demo.firebase.first.MainActivity$3

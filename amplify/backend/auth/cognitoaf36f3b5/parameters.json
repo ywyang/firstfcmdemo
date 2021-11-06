@@ -1,0 +1,19 @@
+{
+    "identityPoolName": "firstfcmdemo_identitypool_af36f3b5",
+    "allowUnauthenticatedIdentities": true,
+    "authSelections": "identityPoolOnly",
+    "resourceName": "cognitoaf36f3b5",
+    "sharedId": "af36f3b5",
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    },
+    "unauthRoleArn": {
+        "Fn::GetAtt": [
+            "UnauthRole",
+            "Arn"
+        ]
+    }
+}

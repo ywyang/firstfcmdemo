@@ -1,13 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:2:1-21:12
+ADDED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:2:1-28:12
 MERGED from [com.google.android.material:material:1.2.1] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/870937bbb66e7ed8ecbc44b2bc3c0107/material-1.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b6f5cea5602a5b58573ae8f3d3afb918/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/8f63d9c6eab1fc3ec3bd8e994478e6d9/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:17:1-58:12
+MERGED from [com.google.android.gms:play-services-auth:19.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b2c12d532e1a7fe40fd5cb0e5eadb095/play-services-auth-19.2.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.amazonaws:aws-android-sdk-pinpoint:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/0abc7c6cfe8a911cc0d3f488a67ee03d/aws-android-sdk-pinpoint-2.33.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/deb9910941109593c3e87a7931d88a8c/aws-android-sdk-mobile-client-2.33.0/AndroidManifest.xml:2:1-20:12
 MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/68990a88058c5a1648b6b34ee2744c7c/firebase-datatransport-18.0.0/AndroidManifest.xml:15:1-34:12
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10f90d220abd8cbbe3b8e968d07e6fef/transport-backend-cct-3.0.0/AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/057b256e77acc99d4f26ef75e340c8fe/firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
@@ -15,13 +18,16 @@ MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/yangyuewe
 MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c48274ca9c7916920773a90d1ecacef4/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/5d723b9ea2a3e9ad865b5d34e83c4810/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/6ea34eb2dd2f3f12357fb748398f78c6/play-services-auth-api-phone-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/ad24c125b13a8e37ce99c866be620cdb/play-services-auth-base-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c8a2cf5cbc8d6170ee4e6b3e2ff25485/play-services-base-17.5.0/AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/37d91f7b1d3bae71a1bc039168dbc9b5/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d6319ec0a1a80c2bec3d633d225d05ac/play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/0aff1c42ede987d0bd82e71c860c8acd/firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/492b30f0e7b3c8d55402321ef82cc84b/firebase-installations-interop-17.0.0/AndroidManifest.xml:15:1-23:12
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b6ea415f531905c42bdc68eba6adc9ea/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c62a6207c0737af357ee6f9f9239fc06/firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10b1e51736e27fda30f62ca5156f7b46/play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/492b30f0e7b3c8d55402321ef82cc84b/firebase-installations-interop-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/912a483ef435dd8c3c62265eb04eef0c/play-services-tasks-17.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/29d67554c7ca3b82226e3057289c3825/play-services-basement-17.5.0/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f80ae77aefca45c6b7cf943d3bebb285/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/cd2d632f47d1e20d4e37ab620bf2016c/appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d5a3002fc0cff364ed08157156171c1c/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -30,13 +36,16 @@ MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/yangyuew
 MERGED from [androidx.transition:transition:1.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/ebef8c97c826d4a1ee14b3ba3d1fe2a3/transition-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/68057359e27bbdd06bf2480458ce7f3f/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/fabe640f9e5e527e1b12fa42a9b2f07a/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c3cd4191ace0436612f546d256538292/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/30c8d6d01f63d1802f1d42d5231fab69/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f88ab4bd85c8737598ab7cbd3e71c215/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c3cd4191ace0436612f546d256538292/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/ba549b49ba890d64a253a7a522299476/activity-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/0331a2723e21d1b00f24d3ef54f554cf/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b650020d6ea2a6451544857486e8da90/customview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.3.1] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f06457ddbdba2b71c677f8a4a0c63361/core-1.3.1/AndroidManifest.xml:17:1-26:12
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/902c57556a43382b9be990d85992583d/aws-android-sdk-auth-core-2.33.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/5540beab89a22946dfda47c948cabb4d/aws-android-sdk-cognitoidentityprovider-2.33.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.amazonaws:aws-android-sdk-core:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/4ba322adef35899021c59d3d7baa7367/aws-android-sdk-core-2.33.0/AndroidManifest.xml:2:1-16:12
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/a91725ad7c2e260a8e0c5c1c0dd41409/transport-runtime-3.0.0/AndroidManifest.xml:15:1-41:12
 MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/09db17e05a2881a6073f135cbba2eadc/transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/6f7dcb6a18c635161723fcc4cde38773/firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
@@ -45,38 +54,40 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/yangyuewei/.grad
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/8913cbc6b4a1982cf279e1f041a8e97b/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d82ee48dcf7c6d0426ef9f08be84fc4a/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c6ae507bfbbbc7cadc9d1fa18b37d46f/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/95845392fc02f66a0c202dabf7818a57/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f321dc6de199ac139f8a0802c11749c9/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/2951fc92df0b0491504555b9bee91436/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c02959994c0fe23110ca86cd18d2a266/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/0798e8687a30e713d97b898ccf1f85c9/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/4970efe8ccabb2c6cb289910540ff629/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/95845392fc02f66a0c202dabf7818a57/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f321dc6de199ac139f8a0802c11749c9/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/2951fc92df0b0491504555b9bee91436/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/5fa73615562d9d7e3f1e8b0405f83600/annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:3:5-34
 		INJECTED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:2:1-28:12
 		INJECTED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:2:1-28:12
 		INJECTED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:5:5-19:19
+ADDED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:5:5-26:19
 MERGED from [com.google.android.material:material:1.2.1] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/870937bbb66e7ed8ecbc44b2bc3c0107/material-1.2.1/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/870937bbb66e7ed8ecbc44b2bc3c0107/material-1.2.1/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b6f5cea5602a5b58573ae8f3d3afb918/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b6f5cea5602a5b58573ae8f3d3afb918/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:27:5-56:19
 MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:27:5-56:19
+MERGED from [com.google.android.gms:play-services-auth:19.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b2c12d532e1a7fe40fd5cb0e5eadb095/play-services-auth-19.2.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:19.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b2c12d532e1a7fe40fd5cb0e5eadb095/play-services-auth-19.2.0/AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/68990a88058c5a1648b6b34ee2744c7c/firebase-datatransport-18.0.0/AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/68990a88058c5a1648b6b34ee2744c7c/firebase-datatransport-18.0.0/AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10f90d220abd8cbbe3b8e968d07e6fef/transport-backend-cct-3.0.0/AndroidManifest.xml:28:5-36:19
@@ -85,18 +96,22 @@ MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/yangyuewe
 MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
 MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
 MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c8a2cf5cbc8d6170ee4e6b3e2ff25485/play-services-base-17.5.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c8a2cf5cbc8d6170ee4e6b3e2ff25485/play-services-base-17.5.0/AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d6319ec0a1a80c2bec3d633d225d05ac/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d6319ec0a1a80c2bec3d633d225d05ac/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/0aff1c42ede987d0bd82e71c860c8acd/firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/0aff1c42ede987d0bd82e71c860c8acd/firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b6ea415f531905c42bdc68eba6adc9ea/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b6ea415f531905c42bdc68eba6adc9ea/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c62a6207c0737af357ee6f9f9239fc06/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c62a6207c0737af357ee6f9f9239fc06/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10b1e51736e27fda30f62ca5156f7b46/play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10b1e51736e27fda30f62ca5156f7b46/play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/912a483ef435dd8c3c62265eb04eef0c/play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/912a483ef435dd8c3c62265eb04eef0c/play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/29d67554c7ca3b82226e3057289c3825/play-services-basement-17.5.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/29d67554c7ca3b82226e3057289c3825/play-services-basement-17.5.0/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.3.1] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f06457ddbdba2b71c677f8a4a0c63361/core-1.3.1/AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.3.1] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f06457ddbdba2b71c677f8a4a0c63361/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [com.amazonaws:aws-android-sdk-core:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/4ba322adef35899021c59d3d7baa7367/aws-android-sdk-core-2.33.0/AndroidManifest.xml:10:5-14:19
+MERGED from [com.amazonaws:aws-android-sdk-core:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/4ba322adef35899021c59d3d7baa7367/aws-android-sdk-core-2.33.0/AndroidManifest.xml:10:5-14:19
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/a91725ad7c2e260a8e0c5c1c0dd41409/transport-runtime-3.0.0/AndroidManifest.xml:25:5-39:19
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/a91725ad7c2e260a8e0c5c1c0dd41409/transport-runtime-3.0.0/AndroidManifest.xml:25:5-39:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/8a55d7eb0052e9fe45d0aa7dc25e3ffd/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
@@ -129,6 +144,18 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:16:17-77
 	android:name
 		ADDED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:16:27-74
+receiver#com.amazonaws.mobileconnectors.pinpoint.targeting.notification.PinpointNotificationReceiver
+ADDED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:21:120-144
+	android:name
+		ADDED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:21:13-119
+intent-filter#action:name:com.amazonaws.intent.fcm.NOTIFICATION_OPEN
+ADDED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:22:13-24:29
+action#com.amazonaws.intent.fcm.NOTIFICATION_OPEN
+ADDED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:23:17-85
+	android:name
+		ADDED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:23:25-82
 uses-sdk
 INJECTED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml
@@ -141,6 +168,12 @@ MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/yangyuewei/.gradle/cache
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/8f63d9c6eab1fc3ec3bd8e994478e6d9/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:19.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b2c12d532e1a7fe40fd5cb0e5eadb095/play-services-auth-19.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:19.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b2c12d532e1a7fe40fd5cb0e5eadb095/play-services-auth-19.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.amazonaws:aws-android-sdk-pinpoint:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/0abc7c6cfe8a911cc0d3f488a67ee03d/aws-android-sdk-pinpoint-2.33.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.amazonaws:aws-android-sdk-pinpoint:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/0abc7c6cfe8a911cc0d3f488a67ee03d/aws-android-sdk-pinpoint-2.33.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/deb9910941109593c3e87a7931d88a8c/aws-android-sdk-mobile-client-2.33.0/AndroidManifest.xml:12:5-15:96
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/deb9910941109593c3e87a7931d88a8c/aws-android-sdk-mobile-client-2.33.0/AndroidManifest.xml:12:5-15:96
 MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/68990a88058c5a1648b6b34ee2744c7c/firebase-datatransport-18.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/68990a88058c5a1648b6b34ee2744c7c/firebase-datatransport-18.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10f90d220abd8cbbe3b8e968d07e6fef/transport-backend-cct-3.0.0/AndroidManifest.xml:19:5-21:41
@@ -155,20 +188,26 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yangyuewei/.grad
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c48274ca9c7916920773a90d1ecacef4/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/5d723b9ea2a3e9ad865b5d34e83c4810/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/5d723b9ea2a3e9ad865b5d34e83c4810/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/6ea34eb2dd2f3f12357fb748398f78c6/play-services-auth-api-phone-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/6ea34eb2dd2f3f12357fb748398f78c6/play-services-auth-api-phone-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/ad24c125b13a8e37ce99c866be620cdb/play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/ad24c125b13a8e37ce99c866be620cdb/play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c8a2cf5cbc8d6170ee4e6b3e2ff25485/play-services-base-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c8a2cf5cbc8d6170ee4e6b3e2ff25485/play-services-base-17.5.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/37d91f7b1d3bae71a1bc039168dbc9b5/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/37d91f7b1d3bae71a1bc039168dbc9b5/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d6319ec0a1a80c2bec3d633d225d05ac/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d6319ec0a1a80c2bec3d633d225d05ac/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/0aff1c42ede987d0bd82e71c860c8acd/firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/0aff1c42ede987d0bd82e71c860c8acd/firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/492b30f0e7b3c8d55402321ef82cc84b/firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/492b30f0e7b3c8d55402321ef82cc84b/firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b6ea415f531905c42bdc68eba6adc9ea/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b6ea415f531905c42bdc68eba6adc9ea/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c62a6207c0737af357ee6f9f9239fc06/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c62a6207c0737af357ee6f9f9239fc06/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10b1e51736e27fda30f62ca5156f7b46/play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10b1e51736e27fda30f62ca5156f7b46/play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/492b30f0e7b3c8d55402321ef82cc84b/firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/492b30f0e7b3c8d55402321ef82cc84b/firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/912a483ef435dd8c3c62265eb04eef0c/play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/912a483ef435dd8c3c62265eb04eef0c/play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/29d67554c7ca3b82226e3057289c3825/play-services-basement-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/29d67554c7ca3b82226e3057289c3825/play-services-basement-17.5.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f80ae77aefca45c6b7cf943d3bebb285/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f80ae77aefca45c6b7cf943d3bebb285/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/cd2d632f47d1e20d4e37ab620bf2016c/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
@@ -185,12 +224,12 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yangy
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/68057359e27bbdd06bf2480458ce7f3f/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/fabe640f9e5e527e1b12fa42a9b2f07a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/fabe640f9e5e527e1b12fa42a9b2f07a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c3cd4191ace0436612f546d256538292/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c3cd4191ace0436612f546d256538292/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/30c8d6d01f63d1802f1d42d5231fab69/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/30c8d6d01f63d1802f1d42d5231fab69/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f88ab4bd85c8737598ab7cbd3e71c215/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f88ab4bd85c8737598ab7cbd3e71c215/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c3cd4191ace0436612f546d256538292/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c3cd4191ace0436612f546d256538292/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/ba549b49ba890d64a253a7a522299476/activity-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/ba549b49ba890d64a253a7a522299476/activity-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/0331a2723e21d1b00f24d3ef54f554cf/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -199,6 +238,12 @@ MERGED from [androidx.customview:customview:1.0.0] /Users/yangyuewei/.gradle/cac
 MERGED from [androidx.customview:customview:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b650020d6ea2a6451544857486e8da90/customview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.3.1] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f06457ddbdba2b71c677f8a4a0c63361/core-1.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.3.1] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f06457ddbdba2b71c677f8a4a0c63361/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/902c57556a43382b9be990d85992583d/aws-android-sdk-auth-core-2.33.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/902c57556a43382b9be990d85992583d/aws-android-sdk-auth-core-2.33.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/5540beab89a22946dfda47c948cabb4d/aws-android-sdk-cognitoidentityprovider-2.33.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/5540beab89a22946dfda47c948cabb4d/aws-android-sdk-cognitoidentityprovider-2.33.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.amazonaws:aws-android-sdk-core:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/4ba322adef35899021c59d3d7baa7367/aws-android-sdk-core-2.33.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.amazonaws:aws-android-sdk-core:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/4ba322adef35899021c59d3d7baa7367/aws-android-sdk-core-2.33.0/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/a91725ad7c2e260a8e0c5c1c0dd41409/transport-runtime-3.0.0/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/a91725ad7c2e260a8e0c5c1c0dd41409/transport-runtime-3.0.0/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/09db17e05a2881a6073f135cbba2eadc/transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
@@ -215,22 +260,24 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/yangyuewei/.gradle/cac
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d82ee48dcf7c6d0426ef9f08be84fc4a/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c6ae507bfbbbc7cadc9d1fa18b37d46f/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c6ae507bfbbbc7cadc9d1fa18b37d46f/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/95845392fc02f66a0c202dabf7818a57/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/95845392fc02f66a0c202dabf7818a57/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f321dc6de199ac139f8a0802c11749c9/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f321dc6de199ac139f8a0802c11749c9/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/2951fc92df0b0491504555b9bee91436/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/2951fc92df0b0491504555b9bee91436/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c02959994c0fe23110ca86cd18d2a266/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c02959994c0fe23110ca86cd18d2a266/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/0798e8687a30e713d97b898ccf1f85c9/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/0798e8687a30e713d97b898ccf1f85c9/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/4970efe8ccabb2c6cb289910540ff629/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/4970efe8ccabb2c6cb289910540ff629/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/95845392fc02f66a0c202dabf7818a57/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/95845392fc02f66a0c202dabf7818a57/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f321dc6de199ac139f8a0802c11749c9/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f321dc6de199ac139f8a0802c11749c9/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/2951fc92df0b0491504555b9bee91436/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/2951fc92df0b0491504555b9bee91436/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/5fa73615562d9d7e3f1e8b0405f83600/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/5fa73615562d9d7e3f1e8b0405f83600/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
 INJECTED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml
 INJECTED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.amazonaws:aws-android-sdk-mobile-client:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/deb9910941109593c3e87a7931d88a8c/aws-android-sdk-mobile-client-2.33.0/AndroidManifest.xml:15:9-93
 	android:targetSdkVersion
 		INJECTED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml
 		ADDED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml
@@ -241,6 +288,10 @@ INJECTED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/
 		INJECTED from /Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.amazonaws:aws-android-sdk-pinpoint:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/0abc7c6cfe8a911cc0d3f488a67ee03d/aws-android-sdk-pinpoint-2.33.0/AndroidManifest.xml:10:5-79
+MERGED from [com.amazonaws:aws-android-sdk-pinpoint:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/0abc7c6cfe8a911cc0d3f488a67ee03d/aws-android-sdk-pinpoint-2.33.0/AndroidManifest.xml:10:5-79
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/deb9910941109593c3e87a7931d88a8c/aws-android-sdk-mobile-client-2.33.0/AndroidManifest.xml:18:5-79
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/deb9910941109593c3e87a7931d88a8c/aws-android-sdk-mobile-client-2.33.0/AndroidManifest.xml:18:5-79
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10f90d220abd8cbbe3b8e968d07e6fef/transport-backend-cct-3.0.0/AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10f90d220abd8cbbe3b8e968d07e6fef/transport-backend-cct-3.0.0/AndroidManifest.xml:25:5-79
 MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
@@ -315,20 +366,42 @@ ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gr
 		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b2c12d532e1a7fe40fd5cb0e5eadb095/play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b2c12d532e1a7fe40fd5cb0e5eadb095/play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b2c12d532e1a7fe40fd5cb0e5eadb095/play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b2c12d532e1a7fe40fd5cb0e5eadb095/play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b2c12d532e1a7fe40fd5cb0e5eadb095/play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b2c12d532e1a7fe40fd5cb0e5eadb095/play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b2c12d532e1a7fe40fd5cb0e5eadb095/play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b2c12d532e1a7fe40fd5cb0e5eadb095/play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b2c12d532e1a7fe40fd5cb0e5eadb095/play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b2c12d532e1a7fe40fd5cb0e5eadb095/play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+uses-permission#android.permission.INTERNET
+ADDED from [com.amazonaws:aws-android-sdk-mobile-client:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/deb9910941109593c3e87a7931d88a8c/aws-android-sdk-mobile-client-2.33.0/AndroidManifest.xml:17:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10f90d220abd8cbbe3b8e968d07e6fef/transport-backend-cct-3.0.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10f90d220abd8cbbe3b8e968d07e6fef/transport-backend-cct-3.0.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/37d91f7b1d3bae71a1bc039168dbc9b5/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/37d91f7b1d3bae71a1bc039168dbc9b5/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from [com.amazonaws:aws-android-sdk-mobile-client:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/deb9910941109593c3e87a7931d88a8c/aws-android-sdk-mobile-client-2.33.0/AndroidManifest.xml:17:22-64
 meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
 ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/68990a88058c5a1648b6b34ee2744c7c/firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
 	android:value
 		ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/68990a88058c5a1648b6b34ee2744c7c/firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/68990a88058c5a1648b6b34ee2744c7c/firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10f90d220abd8cbbe3b8e968d07e6fef/transport-backend-cct-3.0.0/AndroidManifest.xml:26:5-67
-MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
-MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/37d91f7b1d3bae71a1bc039168dbc9b5/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/37d91f7b1d3bae71a1bc039168dbc9b5/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
-	android:name
-		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10f90d220abd8cbbe3b8e968d07e6fef/transport-backend-cct-3.0.0/AndroidManifest.xml:26:22-64
 service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
 ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10f90d220abd8cbbe3b8e968d07e6fef/transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/a91725ad7c2e260a8e0c5c1c0dd41409/transport-runtime-3.0.0/AndroidManifest.xml:36:9-38:40
@@ -361,12 +434,26 @@ ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/yangyuewei/.gradl
 		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/firebase-common-20.0.0/AndroidManifest.xml:31:13-36
 	android:name
 		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/firebase-common-20.0.0/AndroidManifest.xml:27:13-77
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10b1e51736e27fda30f62ca5156f7b46/play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10b1e51736e27fda30f62ca5156f7b46/play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c8a2cf5cbc8d6170ee4e6b3e2ff25485/play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c8a2cf5cbc8d6170ee4e6b3e2ff25485/play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c8a2cf5cbc8d6170ee4e6b3e2ff25485/play-services-base-17.5.0/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10b1e51736e27fda30f62ca5156f7b46/play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c8a2cf5cbc8d6170ee4e6b3e2ff25485/play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.5.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/29d67554c7ca3b82226e3057289c3825/play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.5.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/29d67554c7ca3b82226e3057289c3825/play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.5.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/29d67554c7ca3b82226e3057289c3825/play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+uses-library#org.apache.http.legacy
+ADDED from [com.amazonaws:aws-android-sdk-core:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/4ba322adef35899021c59d3d7baa7367/aws-android-sdk-core-2.33.0/AndroidManifest.xml:11:9-13:40
+	android:required
+		ADDED from [com.amazonaws:aws-android-sdk-core:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/4ba322adef35899021c59d3d7baa7367/aws-android-sdk-core-2.33.0/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [com.amazonaws:aws-android-sdk-core:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/4ba322adef35899021c59d3d7baa7367/aws-android-sdk-core-2.33.0/AndroidManifest.xml:12:13-50
 service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
 ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/a91725ad7c2e260a8e0c5c1c0dd41409/transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
 	android:exported

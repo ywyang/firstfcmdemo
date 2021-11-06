@@ -20,11 +20,11 @@
 13-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:25:5-82
 13-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:25:22-79
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10f90d220abd8cbbe3b8e968d07e6fef/transport-backend-cct-3.0.0/AndroidManifest.xml:26:5-67
-14-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10f90d220abd8cbbe3b8e968d07e6fef/transport-backend-cct-3.0.0/AndroidManifest.xml:26:22-64
+14-->[com.amazonaws:aws-android-sdk-mobile-client:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/deb9910941109593c3e87a7931d88a8c/aws-android-sdk-mobile-client-2.33.0/AndroidManifest.xml:17:5-67
+14-->[com.amazonaws:aws-android-sdk-mobile-client:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/deb9910941109593c3e87a7931d88a8c/aws-android-sdk-mobile-client-2.33.0/AndroidManifest.xml:17:22-64
 15
 16    <application
-16-->/Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:5:5-19:19
+16-->/Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:5:5-26:19
 17        android:allowBackup="true"
 17-->/Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:6:9-35
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -57,117 +57,171 @@
 32        </activity>
 33
 34        <receiver
-34-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:28:9-35:20
-35            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-35-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:29:13-78
-36            android:exported="true"
-36-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:30:13-36
-37            android:permission="com.google.android.c2dm.permission.SEND" >
-37-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:31:13-73
-38            <intent-filter>
-38-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:32:13-34:29
-39                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-39-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:33:17-81
-39-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:33:25-78
-40            </intent-filter>
-41        </receiver>
-42        <!--
-43             FirebaseMessagingService performs security checks at runtime,
-44             but set to not exported to explicitly avoid allowing another app to call it.
-45        -->
-46        <service
-46-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:41:9-48:19
-47            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-47-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:42:13-82
-48            android:directBootAware="true"
-48-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:43:13-43
-49            android:exported="false" >
-49-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:44:13-37
-50            <intent-filter android:priority="-500" >
-50-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:45:13-47:29
-50-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:45:28-51
-51                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-51-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:46:17-78
-51-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:46:25-75
-52            </intent-filter>
-53        </service>
-54        <service
-54-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:49:9-55:19
-55            android:name="com.google.firebase.components.ComponentDiscoveryService"
-55-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:50:13-84
-56            android:directBootAware="true"
-56-->[com.google.firebase:firebase-common:20.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/firebase-common-20.0.0/AndroidManifest.xml:35:13-43
-57            android:exported="false" >
-57-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:51:13-37
-58            <meta-data
-58-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:52:13-54:85
-59                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-59-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
-60                android:value="com.google.firebase.components.ComponentRegistrar" />
-60-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
-61            <meta-data
-61-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/68990a88058c5a1648b6b34ee2744c7c/firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
-62                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-62-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/68990a88058c5a1648b6b34ee2744c7c/firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
-63                android:value="com.google.firebase.components.ComponentRegistrar" />
-63-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/68990a88058c5a1648b6b34ee2744c7c/firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
-64            <meta-data
-64-->[com.google.firebase:firebase-installations:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
-65                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-65-->[com.google.firebase:firebase-installations:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
-66                android:value="com.google.firebase.components.ComponentRegistrar" />
-66-->[com.google.firebase:firebase-installations:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
-67        </service>
-68        <service
-68-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10f90d220abd8cbbe3b8e968d07e6fef/transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
-69            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-69-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10f90d220abd8cbbe3b8e968d07e6fef/transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
-70            android:exported="false" >
-70-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10f90d220abd8cbbe3b8e968d07e6fef/transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+34-->/Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:20:9-25:20
+35            android:name="com.amazonaws.mobileconnectors.pinpoint.targeting.notification.PinpointNotificationReceiver"
+35-->/Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:21:13-119
+36            android:exported="false" >
+36-->/Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:21:120-144
+37            <intent-filter>
+37-->/Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:22:13-24:29
+38                <action android:name="com.amazonaws.intent.fcm.NOTIFICATION_OPEN" />
+38-->/Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:23:17-85
+38-->/Users/yangyuewei/AndroidStudioProjects/firstfcmdemo/app/src/main/AndroidManifest.xml:23:25-82
+39            </intent-filter>
+40        </receiver>
+41        <receiver
+41-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:28:9-35:20
+42            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+42-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:29:13-78
+43            android:exported="true"
+43-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:30:13-36
+44            android:permission="com.google.android.c2dm.permission.SEND" >
+44-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:31:13-73
+45            <intent-filter>
+45-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:32:13-34:29
+46                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+46-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:33:17-81
+46-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:33:25-78
+47            </intent-filter>
+48        </receiver>
+49        <!--
+50             FirebaseMessagingService performs security checks at runtime,
+51             but set to not exported to explicitly avoid allowing another app to call it.
+52        -->
+53        <service
+53-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:41:9-48:19
+54            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+54-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:42:13-82
+55            android:directBootAware="true"
+55-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:43:13-43
+56            android:exported="false" >
+56-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:44:13-37
+57            <intent-filter android:priority="-500" >
+57-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:45:13-47:29
+57-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:45:28-51
+58                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+58-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:46:17-78
+58-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:46:25-75
+59            </intent-filter>
+60        </service>
+61        <service
+61-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:49:9-55:19
+62            android:name="com.google.firebase.components.ComponentDiscoveryService"
+62-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:50:13-84
+63            android:directBootAware="true"
+63-->[com.google.firebase:firebase-common:20.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+64            android:exported="false" >
+64-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:51:13-37
+65            <meta-data
+65-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:52:13-54:85
+66                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+66-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.firebase:firebase-messaging:22.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/d9361bd3532b3f8b7678d8be90bc8da9/firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
+68            <meta-data
+68-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/68990a88058c5a1648b6b34ee2744c7c/firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+69                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+69-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/68990a88058c5a1648b6b34ee2744c7c/firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/68990a88058c5a1648b6b34ee2744c7c/firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
 71            <meta-data
-71-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10f90d220abd8cbbe3b8e968d07e6fef/transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
-72                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-72-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10f90d220abd8cbbe3b8e968d07e6fef/transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
-73                android:value="cct" />
-73-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10f90d220abd8cbbe3b8e968d07e6fef/transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+71-->[com.google.firebase:firebase-installations:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+72                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+72-->[com.google.firebase:firebase-installations:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-installations:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/2aae6c639194544a0dae8dfba6f260df/firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
 74        </service>
 75
-76        <provider
-76-->[com.google.firebase:firebase-common:20.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
-77            android:name="com.google.firebase.provider.FirebaseInitProvider"
-77-->[com.google.firebase:firebase-common:20.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/firebase-common-20.0.0/AndroidManifest.xml:27:13-77
-78            android:authorities="demo.firebase.first.firebaseinitprovider"
-78-->[com.google.firebase:firebase-common:20.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/firebase-common-20.0.0/AndroidManifest.xml:28:13-72
-79            android:directBootAware="true"
-79-->[com.google.firebase:firebase-common:20.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/firebase-common-20.0.0/AndroidManifest.xml:29:13-43
-80            android:exported="false"
-80-->[com.google.firebase:firebase-common:20.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/firebase-common-20.0.0/AndroidManifest.xml:30:13-37
-81            android:initOrder="100" />
-81-->[com.google.firebase:firebase-common:20.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/firebase-common-20.0.0/AndroidManifest.xml:31:13-36
-82
-83        <meta-data
-83-->[com.google.android.gms:play-services-basement:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10b1e51736e27fda30f62ca5156f7b46/play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-84            android:name="com.google.android.gms.version"
-84-->[com.google.android.gms:play-services-basement:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10b1e51736e27fda30f62ca5156f7b46/play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-85            android:value="@integer/google_play_services_version" />
-85-->[com.google.android.gms:play-services-basement:17.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10b1e51736e27fda30f62ca5156f7b46/play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-86
-87        <service
-87-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/a91725ad7c2e260a8e0c5c1c0dd41409/transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
-88            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-88-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/a91725ad7c2e260a8e0c5c1c0dd41409/transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
-89            android:exported="false"
-89-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/a91725ad7c2e260a8e0c5c1c0dd41409/transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
-90            android:permission="android.permission.BIND_JOB_SERVICE" >
-90-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/a91725ad7c2e260a8e0c5c1c0dd41409/transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
-91        </service>
-92
-93        <receiver
-93-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/a91725ad7c2e260a8e0c5c1c0dd41409/transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
-94            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-94-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/a91725ad7c2e260a8e0c5c1c0dd41409/transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
-95            android:exported="false" />
-95-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/a91725ad7c2e260a8e0c5c1c0dd41409/transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
-96    </application>
+76        <activity
+76-->[com.google.android.gms:play-services-auth:19.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b2c12d532e1a7fe40fd5cb0e5eadb095/play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+77            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+77-->[com.google.android.gms:play-services-auth:19.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b2c12d532e1a7fe40fd5cb0e5eadb095/play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+78            android:excludeFromRecents="true"
+78-->[com.google.android.gms:play-services-auth:19.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b2c12d532e1a7fe40fd5cb0e5eadb095/play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+79            android:exported="false"
+79-->[com.google.android.gms:play-services-auth:19.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b2c12d532e1a7fe40fd5cb0e5eadb095/play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+80            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+80-->[com.google.android.gms:play-services-auth:19.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b2c12d532e1a7fe40fd5cb0e5eadb095/play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+81        <!--
+82            Service handling Google Sign-In user revocation. For apps that do not integrate with
+83            Google Sign-In, this service will never be started.
+84        -->
+85        <service
+85-->[com.google.android.gms:play-services-auth:19.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b2c12d532e1a7fe40fd5cb0e5eadb095/play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+86            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+86-->[com.google.android.gms:play-services-auth:19.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b2c12d532e1a7fe40fd5cb0e5eadb095/play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+87            android:exported="true"
+87-->[com.google.android.gms:play-services-auth:19.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b2c12d532e1a7fe40fd5cb0e5eadb095/play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+88            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+88-->[com.google.android.gms:play-services-auth:19.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b2c12d532e1a7fe40fd5cb0e5eadb095/play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+89            android:visibleToInstantApps="true" />
+89-->[com.google.android.gms:play-services-auth:19.2.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/b2c12d532e1a7fe40fd5cb0e5eadb095/play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+90        <service
+90-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10f90d220abd8cbbe3b8e968d07e6fef/transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+91            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+91-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10f90d220abd8cbbe3b8e968d07e6fef/transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+92            android:exported="false" >
+92-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10f90d220abd8cbbe3b8e968d07e6fef/transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+93            <meta-data
+93-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10f90d220abd8cbbe3b8e968d07e6fef/transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+94                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+94-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10f90d220abd8cbbe3b8e968d07e6fef/transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+95                android:value="cct" />
+95-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/10f90d220abd8cbbe3b8e968d07e6fef/transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+96        </service>
 97
-98</manifest>
+98        <provider
+98-->[com.google.firebase:firebase-common:20.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+99            android:name="com.google.firebase.provider.FirebaseInitProvider"
+99-->[com.google.firebase:firebase-common:20.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+100            android:authorities="demo.firebase.first.firebaseinitprovider"
+100-->[com.google.firebase:firebase-common:20.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+101            android:directBootAware="true"
+101-->[com.google.firebase:firebase-common:20.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+102            android:exported="false"
+102-->[com.google.firebase:firebase-common:20.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+103            android:initOrder="100" />
+103-->[com.google.firebase:firebase-common:20.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/f974751ac5677ce8830189f78881ba9c/firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+104
+105        <activity
+105-->[com.google.android.gms:play-services-base:17.5.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c8a2cf5cbc8d6170ee4e6b3e2ff25485/play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+106            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+106-->[com.google.android.gms:play-services-base:17.5.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c8a2cf5cbc8d6170ee4e6b3e2ff25485/play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+107            android:exported="false"
+107-->[com.google.android.gms:play-services-base:17.5.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c8a2cf5cbc8d6170ee4e6b3e2ff25485/play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+108            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+108-->[com.google.android.gms:play-services-base:17.5.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/c8a2cf5cbc8d6170ee4e6b3e2ff25485/play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+109
+110        <meta-data
+110-->[com.google.android.gms:play-services-basement:17.5.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/29d67554c7ca3b82226e3057289c3825/play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+111            android:name="com.google.android.gms.version"
+111-->[com.google.android.gms:play-services-basement:17.5.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/29d67554c7ca3b82226e3057289c3825/play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+112            android:value="@integer/google_play_services_version" />
+112-->[com.google.android.gms:play-services-basement:17.5.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/29d67554c7ca3b82226e3057289c3825/play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+113
+114        <uses-library
+114-->[com.amazonaws:aws-android-sdk-core:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/4ba322adef35899021c59d3d7baa7367/aws-android-sdk-core-2.33.0/AndroidManifest.xml:11:9-13:40
+115            android:name="org.apache.http.legacy"
+115-->[com.amazonaws:aws-android-sdk-core:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/4ba322adef35899021c59d3d7baa7367/aws-android-sdk-core-2.33.0/AndroidManifest.xml:12:13-50
+116            android:required="false" />
+116-->[com.amazonaws:aws-android-sdk-core:2.33.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/4ba322adef35899021c59d3d7baa7367/aws-android-sdk-core-2.33.0/AndroidManifest.xml:13:13-37
+117
+118        <service
+118-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/a91725ad7c2e260a8e0c5c1c0dd41409/transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+119            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+119-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/a91725ad7c2e260a8e0c5c1c0dd41409/transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+120            android:exported="false"
+120-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/a91725ad7c2e260a8e0c5c1c0dd41409/transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+121            android:permission="android.permission.BIND_JOB_SERVICE" >
+121-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/a91725ad7c2e260a8e0c5c1c0dd41409/transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+122        </service>
+123
+124        <receiver
+124-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/a91725ad7c2e260a8e0c5c1c0dd41409/transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+125            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+125-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/a91725ad7c2e260a8e0c5c1c0dd41409/transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+126            android:exported="false" />
+126-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/yangyuewei/.gradle/caches/transforms-2/files-2.1/a91725ad7c2e260a8e0c5c1c0dd41409/transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+127    </application>
+128
+129</manifest>

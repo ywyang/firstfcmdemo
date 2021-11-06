@@ -1,0 +1,27 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-firstfcmdemo-dev-161221-authRole",
+            "UnauthRoleArn": "arn:aws:iam::859036681341:role/amplify-firstfcmdemo-dev-161221-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::859036681341:role/amplify-firstfcmdemo-dev-161221-authRole",
+            "Region": "ap-northeast-2",
+            "DeploymentBucketName": "amplify-firstfcmdemo-dev-161221-deployment",
+            "UnauthRoleName": "amplify-firstfcmdemo-dev-161221-unauthRole",
+            "StackName": "amplify-firstfcmdemo-dev-161221",
+            "StackId": "arn:aws:cloudformation:ap-northeast-2:859036681341:stack/amplify-firstfcmdemo-dev-161221/7699e840-3634-11ec-bc4e-021495950bf2",
+            "AmplifyAppId": "d1db7shx6xg3fi"
+        },
+        "categories": {
+            "auth": {
+                "cognitoaf36f3b5": {}
+            },
+            "notifications": {
+                "Pinpoint": {
+                    "Name": "firstfcmdemoDNaH4-dev",
+                    "Id": "94bf52c743ba4225b30db59f89fd4b21",
+                    "Region": "ap-northeast-2"
+                }
+            }
+        }
+    }
+}
